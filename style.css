@@ -38,12 +38,12 @@ div>a:hover {
 }
 
 .cache {
+    display: flex;
+    justify-content: center;
     background-color: gainsboro;
-    z-index: 9900;
 }
 
 img {
-    z-index: -8888;
     width: 30%;
     height: 30%;
 }
