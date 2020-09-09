@@ -1,0 +1,57 @@
+body {
+    margin: 0em;
+}
+
+
+/* En-tete du site */
+
+header {
+    text-align: center;
+    background-image: url(baniere.png);
+    color: aliceblue;
+    border: 0.5em darkorange dashed;
+    border-radius: 1em;
+}
+
+h1 {
+    text-decoration-line: underline;
+    text-decoration-color: aqua;
+}
+
+
+/* contenu de la page */
+
+main {
+    background-color: antiquewhite;
+}
+
+.navlink {
+    text-align: center;
+}
+
+div>a:hover {
+    color: fuchsia;
+}
+
+.linktest:hover {
+    color: transparent;
+}
+
+.cache {
+    background-color: gainsboro;
+    z-index: 9900;
+}
+
+img {
+    z-index: -8888;
+    width: 30%;
+    height: 30%;
+}
+
+.pass:hover {
+    background-color: darkturquoise;
+}
+
+footer {
+    background-color: cadetblue;
+}
